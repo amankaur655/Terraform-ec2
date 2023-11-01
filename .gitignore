@@ -1,0 +1,64 @@
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Ignore build artifacts and dependencies
+node_modules/
+yarn-error.log
+dist/
+build/
+target/
+.gradle/
+*.war
+*.jar
+
+# Ignore dependency files
+yarn.lock
+package-lock.json
+composer.lock
+
+# Ignore IDE and editor configuration files
+.editorconfig
+.eslintrc
+.prettierrc
+.babelrc
+.stylelintrc
+
+# Ignore temporary files
+*.tmp
+*.log
+*.log.*
+
+# Ignore sensitive or secret information
+.env
+.env.local
+.secrets
+
+# Ignore user-specific or custom configuration
+custom-config/
+
+# Ignore database and data files
+data/
+database.sqlite
+
+# Ignore documentation and generated reports
+doc/
+reports/
+
+# Ignore binary and executable files
+*.exe
+*.dll
+*.so
+*.out
+
+# Ignore media files
+images/
+videos/
+audio/
+
+# Ignore backup and temporary directories
+backup/
+temp/
